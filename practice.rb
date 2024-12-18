@@ -292,14 +292,14 @@
 
 
 
-def running_sums(nums)
-  result = []
-  sum = 0
-  nums.each do |num|
-      sum += num
-      result.push(sum)
-  end
-  return result
-end
+# def running_sums(nums)
+#   result = []
+#   sum = 0
+#   nums.each do |num|
+#       sum += num
+#       result.push(sum)
+#   end
+#   return result
+# end
 
-p running_sums([1,2,3,4,5])
+# p running_sums([1,2,3,4,5])
